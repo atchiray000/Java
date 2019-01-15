@@ -21,5 +21,43 @@
        }
    }
   </script>
+  <h1><right>Medium</right></h1>
+ <label for="red">Guess:</label>
+ <input id="guess" type="text" />
+ <button onclick="check()">Check</button>
+  <script type="text/javascript">
+   theNumber = Math.floor(Math.random()*100)
+   check = function() {
+       guess = document.querySelector("#guess").value;
+       if (guess == theNumber) {
+           alert("Correct!")
+       } else {
+           if (guess < theNumber) {
+               alert("Higher!")
+           } else {
+               alert("Lower!")
+           }
+       }
+   }
+  </script>
+  <h1><right>Hard</right></h1>
+ <label for="red">Guess:</label>
+ <input id="guess" type="text" />
+ <button onclick="check()">Check</button>
+  <script type="text/javascript">
+   theNumber = Math.floor(Math.random()*1000)
+   check = function() {
+       guess = document.querySelector("#guess").value;
+       if (guess == theNumber) {
+           alert("Correct!")
+       } else {
+           if (guess < theNumber) {
+               alert("Higher!")
+           } else {
+               alert("Lower!")
+           }
+       }
+   }
+  </script>
 </body>
 </html>
