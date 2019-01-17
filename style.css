@@ -18,6 +18,7 @@ move {
   background-color: red;
   animation-name: move;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
   spin {
