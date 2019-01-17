@@ -8,7 +8,7 @@
 
 @keyframes move {
   0%   {background-color:red; left:0px; top:0px;}
-  50%  {background-color:red; left:1000px; top:0px;}
+  50%  {background-color:red; left:1100px; top:0px;}
   100%  {background-color:red; left:0px; top:0px;}
 }
 
