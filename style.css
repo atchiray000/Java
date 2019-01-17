@@ -8,7 +8,8 @@
 
 @keyframes move {
   50%   {background-color:red; left:0px; top:0px;}
-  100%  {background-color:green; left:200px; top:0px;}
+  100%  {background-color:green; left:1000px; top:0px;}
+  100%  {background-color:red; left:0px; top:0px;}
 }
 
 #move  {
@@ -17,7 +18,7 @@
   position: relative;
   background-color: red;
   animation-name: move;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
