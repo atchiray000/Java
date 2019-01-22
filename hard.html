@@ -1,0 +1,32 @@
+<html>
+ <head>
+     <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+<title>Guessing Game 2</title>
+<body>
+ <h1><center>Guessing Game!</center></h1>
+ <h2>0-50</h2>
+ <label for="red">Guess:</label>
+ <input id="guess" type="text" />
+ <button onclick="check()">Check</button>
+  <script type="text/javascript">
+   theNumber = Math.floor(Math.random()*50)
+   check = function() {
+       guess = document.querySelector("#guess").value;
+       if (guess == theNumber) {
+           alert("Correct!")
+       } else {
+           if (guess < theNumber) {
+               alert("Higher!")
+           } else {
+               alert("Lower!")
+           }
+       }
+   }
+  </script>
+ <br>
+ <br>
+ <br>
+ <br>
+  <div id="spin" style="float: left"></div>  <div id="move" style="float: left"></div> <div id="spin" style="float: right"></div>
+ </html>
