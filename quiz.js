@@ -95,6 +95,5 @@
 
   buildQuiz();
 
-
   submitButton.addEventListener("click", showResults);
 })();
